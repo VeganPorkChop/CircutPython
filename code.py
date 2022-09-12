@@ -3,9 +3,7 @@ import neopixel
 import time
 
 Kaz = neopixel.NeoPixel(board.NEOPIXEL, 1)
-Kaz.brightness = 1 
-
-print("Make it red!")
+Kaz.brightness = 1  
 
 while True:
     Kaz.fill((204, 0, 153))
