@@ -17,7 +17,7 @@ Kaz.brightness = 1
 my_servo = servo.Servo(pwm)
 
 while True:
- if BUTTON == 
+ if BUTTON ==
     for angle in range(0, 180, 180):  # 0 - 180 degrees, 100 degrees at a time.
         my_servo.angle = angle
     for angle in range(180, 0, -180): # 180 - 0 degrees, 100 degrees at a time.
