@@ -6,8 +6,31 @@
 * [NextAssignmentGoesHere](#NextAssignment)
 ## Hello_CircuitPython:
 ### Description
-The assignment is asking me to print Hello world on the serial monitor.
+The assignment is teaching the student the basics of how to use a servo with interval degrees
 ### Code
+# SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
+"""CircuitPython Essentials Servo standard servo example"""
+import time
+import neopixel
+import board
+import pwmio
+from adafruit_motor import servo
+# create a PWMOut object on Pin A2.
+pwm = pwmio.PWMOut(board.D3, duty_cycle=2 ** 15, frequency=50)
+Kaz = neopixel.NeoPixel(board.NEOPIXEL, 1)
+BUTTON = 1
+Kaz.brightness = 1
+# Create a servo object, my_servo.
+my_servo = servo.Servo(pwm)
+
+while True:
+  for angle in range(0, 180, 180):  # 0 - 180 degrees, 100 degrees at a time.
+        my_servo.angle = angle
+  for angle in range(180, 0, -180): # 180 - 0 degrees, 100 degrees at a time.
+        my_servo.angle = angle
 ### To commit from VS Code:
 1. Go to the little branch icon in the left bar of VS Code.
 2. Click the + icon next  to the files you want to commit.
