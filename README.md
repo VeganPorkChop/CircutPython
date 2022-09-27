@@ -8,7 +8,7 @@
 ### Description
 The assignment is teaching the student the basics of how to use a servo with interval degrees
 ### Code
-'''
+```python
 # SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
 #
 # SPDX-License-Identifier: MIT
@@ -32,7 +32,7 @@ while True:
         my_servo.angle = angle
   for angle in range(180, 0, -180): # 180 - 0 degrees, 100 degrees at a time.
         my_servo.angle = angle
-'''
+```
 ### To commit from VS Code:
 1. Go to the little branch icon in the left bar of VS Code.
 2. Click the + icon next  to the files you want to commit.
