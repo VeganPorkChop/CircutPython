@@ -34,7 +34,10 @@ while True:
         my_servo.angle = angle
 ```
 ### Evidence:
+#### Funcioning Video
 ![Servo_Spinning](https://user-images.githubusercontent.com/91289762/192614293-b1612daf-d5ca-4ed8-9b4c-d0f26612e901.gif)
+#### Wiring Diagram
+![Wiring Of Servo](https://user-images.githubusercontent.com/91289762/192615571-1d0a45ed-eb88-417b-8a5a-f431c68ef31d.png)
 ### If you get an error about user.name and user.email
 1. In VS Code, hit `` Ctrl+Shift+` ``
 2. Filling in your actual information, run the following commands one line at a time. The paste shortcut is `Ctrl+V` or you can right click then hit paste. Spelling must match exactly:
