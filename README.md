@@ -1,4 +1,9 @@
 # Table Of Contents
+* [Table of Contents](#TableOfContents)
+* [Hello_CircuitPython](#Hello_CircuitPython)
+* [CircuitPython_Servo](#CircuitPython_Servo)
+* [CircuitPython_LCD](#CircuitPython_LCD)
+* [NextAssignmentGoesHere](#NextAssignment)
 ### Every new project:
 1. Make a GitHub account if you don't have one with your normal school credentials and sign into it.
 2. Click the big green Use This Template button at the top of this page.
