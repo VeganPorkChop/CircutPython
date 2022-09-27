@@ -38,11 +38,5 @@ while True:
 ![Servo_Spinning](https://user-images.githubusercontent.com/91289762/192614293-b1612daf-d5ca-4ed8-9b4c-d0f26612e901.gif)
 #### Wiring Diagram
 ![Wiring Of Servo](https://user-images.githubusercontent.com/91289762/192615571-1d0a45ed-eb88-417b-8a5a-f431c68ef31d.png)
-### If you get an error about user.name and user.email
-1. In VS Code, hit `` Ctrl+Shift+` ``
-2. Filling in your actual information, run the following commands one line at a time. The paste shortcut is `Ctrl+V` or you can right click then hit paste. Spelling must match exactly:
-```
-git config --global user.name YOURUSERNAME
-git config --global user.email YOURSCHOOLEMAIL
-```
-3. Return to step 3 of the previous section.
+### Reflection
+When I tried to add the degree intervals at the end of the "angle in range" statement I forgot to add a delay time and that blew the servo, I also made the degree over 180 and that confused the code. When I forgot to add delay the servo spasmed left and right very fast thats then screwed the glue, or stripped a gear and stopped the servo, it also sparked. When I made the intervol too large the code said that there was an error, so nothing broke. I learned that when your servo groggles and sparks then you've done something wrong.
