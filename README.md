@@ -8,7 +8,8 @@
 ### Description
 The assignment is teaching the student the basics of how to use a servo with interval degrees
 ### Code
-'''# SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
+'''
+# SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
 #
 # SPDX-License-Identifier: MIT
 
