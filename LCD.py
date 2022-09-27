@@ -18,32 +18,37 @@ cur_state = True
 prev_state = True
 cur_state2 = True
 prev_state2 = True
+cur_state3 = True
+prev_state3 = True
 buttonPress = 0
+buttonToggle = True
 
 while True:
-    while btn2.value == False:
-        cur_state = btn.value
-        if cur_state != prev_state:
-            if not cur_state:
-                buttonPress = buttonPress + 1
-                lcd.clear()
-                lcd.set_cursor_pos(0,0)
-                lcd.print(str(buttonPress))
-            else:
-                lcd.clear()
-                lcd.set_cursor_pos(0,0)
-                lcd.print(str(buttonPress))
-        prev_state = cur_state
-    else:
-        cur_state2 = btn.value
-        if cur_state2 != prev_state2:
-            if not cur_state2:
-                buttonPress = buttonPress - 1
-                lcd.clear()
-                lcd.set_cursor_pos(0,0)
-                lcd.print(str(buttonPress))
-            else:
-                lcd.clear()
-                lcd.set_cursor_pos(0,0)
-                lcd.print(str(buttonPress))
-        prev_state2 = cur_state2
+        cur_state3 = btn2.value
+        prev_state3 = cur_state3
+        if cur_state3 == prev_state3:
+            cur_state = btn.value
+            if cur_state != prev_state:
+                if not cur_state:
+                    buttonPress = buttonPress + 1
+                    lcd.clear()
+                    lcd.set_cursor_pos(0,0)
+                    lcd.print(str(buttonPress))
+                else:
+                    lcd.clear()
+                    lcd.set_cursor_pos(0,0)
+                    lcd.print(str(buttonPress))
+            prev_state = cur_state
+        else:
+            cur_state2 = btn.value
+            if cur_state2 != prev_state2:
+                if not cur_state2:
+                    buttonPress = buttonPress - 1
+                    lcd.clear()
+                    lcd.set_cursor_pos(0,0)
+                    lcd.print(str(buttonPress))
+                else:
+                    lcd.clear()
+                    lcd.set_cursor_pos(0,0)
+                    lcd.print(str(buttonPress))
+            prev_state2 = cur_state2
