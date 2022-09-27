@@ -33,12 +33,8 @@ while True:
   for angle in range(180, 0, -180): # 180 - 0 degrees, 100 degrees at a time.
         my_servo.angle = angle
 ```
-### To commit from VS Code:
-1. Go to the little branch icon in the left bar of VS Code.
-2. Click the + icon next  to the files you want to commit.
-3. Write a message that descibes your changes in the "Message" box and hit commit.
-4. If you get an error about user.name and user.email, see the next section.
-5. Click the "Sync changes" button.
+### Evidence:
+![Servo_Spinning](https://user-images.githubusercontent.com/91289762/192614293-b1612daf-d5ca-4ed8-9b4c-d0f26612e901.gif)
 ### If you get an error about user.name and user.email
 1. In VS Code, hit `` Ctrl+Shift+` ``
 2. Filling in your actual information, run the following commands one line at a time. The paste shortcut is `Ctrl+V` or you can right click then hit paste. Spelling must match exactly:
