@@ -6,7 +6,8 @@
 * [NextAssignmentGoesHere](#NextAssignment)
 ## Hello_CircuitPython:
 ### Description
-1. The assignment is asking me to print Hello world on the serial monitor
+The assignment is asking me to print Hello world on the serial monitor.
+### Code
 ### To commit from VS Code:
 1. Go to the little branch icon in the left bar of VS Code.
 2. Click the + icon next  to the files you want to commit.
