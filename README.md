@@ -39,4 +39,4 @@ while True:
 #### Wiring Diagram
 ![Wiring Of Servo](https://user-images.githubusercontent.com/91289762/192615571-1d0a45ed-eb88-417b-8a5a-f431c68ef31d.png)
 ### Reflection
-When I tried to add the degree intervals at the end of the "angle in range" statement I forgot to add a delay time and that blew the servo, I also made the degree over 180 and that confused the code. When I forgot to add delay the servo spasmed left and right very fast thats then screwed the glue, or stripped a gear and stopped the servo, it also sparked. When I made the intervol too large the code said that there was an error, so nothing broke. I learned that when your servo groggles and sparks then you've done something wrong.
+Dont forget to add delay to your servo. I forgot and a servo sparked out. Dont forgot to make sure your intervol is within the max degrees. It doesnt have to add to 180, but it does have to be within 180.
