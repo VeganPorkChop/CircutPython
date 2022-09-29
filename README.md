@@ -51,6 +51,9 @@ while True:
         print("Retrying!")
     time.sleep(0.01)
 ```
+### Evidence
+#### Functioning Video
+#### Wiring Diagram
 ## CircuitPython_Servo:
 ### Description
 The assignment is teaching the student the basics of how to use a servo with interval degrees
@@ -61,29 +64,39 @@ The assignment is teaching the student the basics of how to use a servo with int
 # SPDX-License-Identifier: MIT
 
 """CircuitPython Essentials Servo standard servo example"""
+from digitalio import DigitalInOut, Direction, Pull
 import time
 import neopixel
 import board
 import pwmio
 from adafruit_motor import servo
+btn = DigitalInOut(board.D3)
+btn2 = DigitalInOut(board.D2)
+btn.direction = Direction.INPUT
+btn.pull = Pull.UP
+btn2.direction = Direction.INPUT
+btn2.pull = Pull.UP
 # create a PWMOut object on Pin A2.
-pwm = pwmio.PWMOut(board.D3, duty_cycle=2 ** 15, frequency=50)
-Kaz = neopixel.NeoPixel(board.NEOPIXEL, 1)
-BUTTON = 1
-Kaz.brightness = 1
+pwm = pwmio.PWMOut(board.D7, duty_cycle=2 ** 15, frequency=50)
 # Create a servo object, my_servo.
 my_servo = servo.Servo(pwm)
 
 while True:
-  for angle in range(0, 180, 180):  # 0 - 180 degrees, 100 degrees at a time.
-        my_servo.angle = angle
-  for angle in range(180, 0, -180): # 180 - 0 degrees, 100 degrees at a time.
-        my_servo.angle = angle
+    if btn == True:
+        time.sleep(1)
+        for angle in range(0, 180, 90):  # 0 - 180 degrees, 100 degrees at a time.
+            my_servo.angle = angle
+    elif btn2 == True:
+        time.sleep(1)
+        for angle in range(180, 0, -90): # 180 - 0 degrees, 100 degrees at a time.
+            my_servo.angle = angle
+    else:
+        print("click a button man")
 ```
 ### Evidence:
+
 #### Funcioning Video
-![Servo_Spinning](https://user-images.githubusercontent.com/91289762/192614293-b1612daf-d5ca-4ed8-9b4c-d0f26612e901.gif)
+![Sero_Spinning](https://user-images.githubusercontent.com/91289762/193129466-d6438f43-74f9-4fa5-8364-66bdf4685d74.png)
 #### Wiring Diagram
-![Wiring Of Servo](https://user-images.githubusercontent.com/91289762/192615571-1d0a45ed-eb88-417b-8a5a-f431c68ef31d.png)
 ### Reflection
 Dont forget to add delay to your servo. I forgot and a servo sparked out. Dont forgot to make sure your intervol is within the max degrees. It doesnt have to add to 180, but it does have to be within 180.
