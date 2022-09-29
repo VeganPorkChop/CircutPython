@@ -1,10 +1,12 @@
 # Table Of Contents
 * [Table of Contents](#TableOfContents)
 * [Hello_CircuitPython](#Hello_CircuitPython)
+* [CircuitPython LED_Fade](#CircuitPython_LED_Fade)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
 * [NextAssignmentGoesHere](#NextAssignment)
 ## Hello_CircuitPython:
+## CircuitPython_LED_Fade
 ### Description
 This assignment teaches you how to use the on board LED light, it also teaches the basics of the map function
 ### Code
