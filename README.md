@@ -55,6 +55,7 @@ while True:
 #### Functioning Video
 ![Kaz's Video Servo Spinning](https://github.com/kshinoz98/CircuitPython/blob/master/Untitled_%20Sep%2029,%202022%203_40%20PM.gif?raw=true)
 #### Wiring Diagram
+![Kaz's Wiring Diagram](https://github.com/kshinoz98/CircuitPython/blob/master/Screen%20of%20servo%20wiring.png?raw=true)
 ## CircuitPython_Servo:
 ### Description
 The assignment is teaching the student the basics of how to use a servo with interval degrees
