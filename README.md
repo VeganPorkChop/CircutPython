@@ -53,7 +53,7 @@ while True:
 ```
 ### Evidence
 #### Functioning Video
-![Kaz's Virdeo Spinning](https://github.com/kshinoz98/CircuitPython/blob/master/Untitled_%20Sep%2027,%202022%203_18%20PM.gif?raw=true)
+![Kaz's Video Servo Spinning](https://github.com/kshinoz98/CircuitPython/blob/master/Untitled_%20Sep%2029,%202022%203_40%20PM.gif?raw=true)
 #### Wiring Diagram
 ## CircuitPython_Servo:
 ### Description
