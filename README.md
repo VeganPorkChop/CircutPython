@@ -6,6 +6,15 @@
 * [CircuitPython_LCD](#CircuitPython_LCD)
 * [NextAssignmentGoesHere](#NextAssignment)
 ## Hello_CircuitPython:
+### Description
+This assignment started me on Circuit Python and was designed to teach me about changing an on board LED
+### Code
+```python
+```
+### Evidence
+#### Functioning Video
+![Kaz's Video of The LED blink Assignment](https://github.com/kshinoz98/CircuitPython/raw/master/Untitled_%20Sep%2027,%202022%203_18%20PM.gif?raw=true)
+#### Wiring Diagram
 ## CircuitPython_LED_Fade
 ### Description
 This assignment teaches you how to use the on board LED light, it also teaches the basics of the map function
