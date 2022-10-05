@@ -102,3 +102,14 @@ while True:
 #### Wiring Diagram
 ### Reflection
 Dont forget to add delay to your servo. I forgot and a servo sparked out. Dont forgot to make sure your intervol is within the max degrees. It doesnt have to add to 180, but it does have to be within 180.
+## CircuitPython_LED_Fade
+### Description
+This assignment added on to the basic knowlege of the mapping function and the LED light, and combined the two and made it slightly harder.
+### Code
+```python
+
+```
+### Evidence
+#### Functioning Video
+![Kaz's Functioning LED Fade](https://raw.githubusercontent.com/kshinoz98/CircuitPython/master/ezgifgif.gif)
+#### Wiring Diagram
