@@ -1,7 +1,6 @@
 # Table Of Contents
 * [Table of Contents](#TableOfContents)
 * [Hello_CircuitPython](#Hello_CircuitPython)
-* [CircuitPython LED_Fade](#CircuitPython_LED_Fade)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
 ## Hello_CircuitPython:
@@ -112,18 +111,6 @@ while True:
 ![Kaz's Servo Wiring](https://github.com/kshinoz98/CircuitPython/blob/master/Screen%20of%20servo%20wiring.png?raw=true)
 ### Reflection
 Dont forget to add delay to your servo. I forgot and a servo sparked out. Dont forgot to make sure your intervol is within the max degrees. It doesnt have to multiply into 180, but it does have to be within 180.
-## CircuitPython_LED_Fade
-### Description
-This assignment added on to the basic knowlege of the mapping function and the LED light, and combined the two and made it slightly harder.
-### Code
-```python
-
-```
-### Evidence
-#### Functioning Video
-![Kaz's Functioning LED Fade](https://github.com/kshinoz98/CircuitPython/raw/master/ezgifgif.gif?raw=true)
-#### Wiring Diagram
-![Kaz's Wiring Diagram for Distance Sensor](https://raw.githubusercontent.com/kshinoz98/CircuitPython/f4be6df7eb8828500e94754d2ccb5b5c8cd2b276/Screenshot%202022-09-19%20154243.png)
 ## CircuitPython_LCD
 ### Description 
 Tripping one of the inputs will cause your Metro to count and that count will be displayed on the LCD. Touching the other input should toggle whether your Metro is counting up or down. The count direction is also be displayed on the LCD.
