@@ -117,7 +117,6 @@ Tripping one of the inputs will cause your Metro to count and that count will be
 ### Code
 python```
 
-```
 ### Evidence
 #### Functioning Video
 ![Kaz's Functioning Video for LCD](https://github.com/kshinoz98/CircuitPython/blob/master/ezgif-2.gif?raw=true)
