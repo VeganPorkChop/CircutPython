@@ -109,8 +109,9 @@ while True:
 #### Funcioning Video
 ![Sero_Spinning](https://user-images.githubusercontent.com/91289762/193129466-d6438f43-74f9-4fa5-8364-66bdf4685d74.png)
 #### Wiring Diagram
+![Kaz's Servo Wiring](https://github.com/kshinoz98/CircuitPython/blob/master/Screen%20of%20servo%20wiring.png?raw=true)
 ### Reflection
-Dont forget to add delay to your servo. I forgot and a servo sparked out. Dont forgot to make sure your intervol is within the max degrees. It doesnt have to add to 180, but it does have to be within 180.
+Dont forget to add delay to your servo. I forgot and a servo sparked out. Dont forgot to make sure your intervol is within the max degrees. It doesnt have to multiply into 180, but it does have to be within 180.
 ## CircuitPython_LED_Fade
 ### Description
 This assignment added on to the basic knowlege of the mapping function and the LED light, and combined the two and made it slightly harder.
@@ -123,4 +124,17 @@ This assignment added on to the basic knowlege of the mapping function and the L
 ![Kaz's Functioning LED Fade](https://raw.githubusercontent.com/kshinoz98/CircuitPython/master/ezgifgif.gif)
 #### Wiring Diagram
 ![Kaz's Wiring Diagram for Distance Sensor](https://raw.githubusercontent.com/kshinoz98/CircuitPython/f4be6df7eb8828500e94754d2ccb5b5c8cd2b276/Screenshot%202022-09-19%20154243.png)
-## CiruitPython_LCD
+## CircuitPython_LCD
+### Description 
+Tripping one of the inputs will cause your Metro to count and that count will be displayed on the LCD. Touching the other input should toggle whether your Metro is counting up or down. The count direction is also be displayed on the LCD.
+### Code
+python```
+
+```
+### Evidence
+#### Functioning Video
+![Kaz's Functioning Video for LCD](https://github.com/kshinoz98/CircuitPython/blob/master/ezgif-2.gif?raw=true)
+#### Wiring Diagram
+![Kaz's Wiring Diagram For LCD](https://raw.githubusercontent.com/kshinoz98/CircuitPython/b45fed4ddee888d03481fca24c670a8d5ac0b01c/Screenshot%202022-09-27%20144318.png)
+### Reflection
+When I was doing this assignment my second input, the one that toggles the counting, was set as a integer and not a boolean. Set it as a boolean and that will help it toggle. Don't spend your time on debounce, its not worth it.
