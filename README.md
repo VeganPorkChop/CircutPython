@@ -107,7 +107,7 @@ while True:
 ### Evidence:
 
 #### Funcioning Video
-![Sero_Spinning](https://user-images.githubusercontent.com/91289762/193129466-d6438f43-74f9-4fa5-8364-66bdf4685d74.png)
+![Sero_Spinning](https://github.com/kshinoz98/CircuitPython/raw/master/Untitled_%20Sep%2029,%202022%203_40%20PM.gif?raw=true)
 #### Wiring Diagram
 ![Kaz's Servo Wiring](https://github.com/kshinoz98/CircuitPython/blob/master/Screen%20of%20servo%20wiring.png?raw=true)
 ### Reflection
