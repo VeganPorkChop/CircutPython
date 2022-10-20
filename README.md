@@ -4,7 +4,6 @@
 * [CircuitPython LED_Fade](#CircuitPython_LED_Fade)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
-* [NextAssignmentGoesHere](#NextAssignment)
 ## Hello_CircuitPython:
 ### Description
 This assignment started me on Circuit Python and was designed to teach me about changing an on board LED
@@ -124,3 +123,4 @@ This assignment added on to the basic knowlege of the mapping function and the L
 ![Kaz's Functioning LED Fade](https://raw.githubusercontent.com/kshinoz98/CircuitPython/master/ezgifgif.gif)
 #### Wiring Diagram
 ![Kaz's Wiring Diagram for Distance Sensor](https://raw.githubusercontent.com/kshinoz98/CircuitPython/f4be6df7eb8828500e94754d2ccb5b5c8cd2b276/Screenshot%202022-09-19%20154243.png)
+## CiruitPython_LCD
