@@ -61,9 +61,9 @@ while True:
 ```
 ### Evidence
 #### Functioning Video
-![Kaz's Video Servo Spinning](https://github.com/kshinoz98/CircuitPython/blob/master/Untitled_%20Sep%2029,%202022%203_40%20PM.gif?raw=true)
+![Kaz's LED Fade Video](https://github.com/kshinoz98/CircuitPython/raw/master/ezgifgif.gif?raw=true)
 #### Wiring Diagram
-![Kaz's Wiring Diagram](https://github.com/kshinoz98/CircuitPython/blob/master/Screen%20of%20servo%20wiring.png?raw=true)
+![Kaz's Wiring Diagram of LED Fade](https://raw.githubusercontent.com/kshinoz98/CircuitPython/f4be6df7eb8828500e94754d2ccb5b5c8cd2b276/Screenshot%202022-09-19%20154243.png)
 ## CircuitPython_Servo:
 ### Description
 The assignment is teaching the student the basics of how to use a servo with interval degrees
