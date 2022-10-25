@@ -24,6 +24,8 @@ while True:
 ![Kaz's Video of The LED blink Assignment](https://github.com/kshinoz98/CircuitPython/raw/master/Untitled_%20Sep%2027,%202022%203_18%20PM.gif?raw=true)
 #### Wiring Diagram
 ![Mr. Helmstetter's Wiring Diagram Of LED blink assignment](https://user-images.githubusercontent.com/54641488/192549584-18285130-2e3b-4631-8005-0792c2942f73.gif)
+### Reflection
+This assignment was very easy, but make sure you do not turn the brightness all the way up.
 ## CircuitPython_LED_Fade
 ### Description
 This assignment teaches you how to use the on board LED light, it also teaches the basics of the map function
