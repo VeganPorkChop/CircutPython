@@ -8,6 +8,16 @@
 This assignment started me on Circuit Python and was designed to teach me about changing an on board LED
 ### Code
 ```python
+import board
+import neopixel
+import time 
+import math
+
+Kaz = neopixel.NeoPixel(board.NEOPIXEL, 1)
+Kaz.brightness = 0.1 
+print("Make it red!")
+while True:
+    Kaz.fill((255,0,0))
 ```
 ### Evidence
 #### Functioning Video
