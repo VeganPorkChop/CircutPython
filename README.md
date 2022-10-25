@@ -64,6 +64,8 @@ while True:
 ![Kaz's LED Fade Video](https://github.com/kshinoz98/CircuitPython/raw/master/ezgifgif.gif?raw=true)
 #### Wiring Diagram
 ![Kaz's Wiring Diagram of LED Fade](https://raw.githubusercontent.com/kshinoz98/CircuitPython/f4be6df7eb8828500e94754d2ccb5b5c8cd2b276/Screenshot%202022-09-19%20154243.png)
+### Reflection
+When making the ranges, my basic knowlege of colors didn't help me figure out values, what did was an RGB calculator on the internet. Use an RGB calculator to help you visuaize your map fuction. In the beginning I did not use very efficient names for my variables. My "blue" value was called "green".
 ## CircuitPython_Servo:
 ### Description
 The assignment is teaching the student the basics of how to use a servo with interval degrees
