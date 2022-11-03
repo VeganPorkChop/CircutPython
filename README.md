@@ -3,6 +3,7 @@
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
+* [MotorControl](#MotorControl)
 ## Hello_CircuitPython:
 ### Description
 This assignment started me on Circuit Python and was designed to teach me about changing an on board LED
@@ -192,3 +193,30 @@ while True:
 ![Kaz's Wiring Diagram For LCD](https://raw.githubusercontent.com/kshinoz98/CircuitPython/b45fed4ddee888d03481fca24c670a8d5ac0b01c/Screenshot%202022-09-27%20144318.png)
 ### Reflection
 When I was doing this assignment my second input, the one that toggles the counting, was set as a integer and not a boolean. Set it as a boolean and that will help it toggle. Don't spend your time on debounce, its not worth it.
+## MotorControl
+### Description
+### Code
+```python
+import time
+from time import sleep
+import board
+import simpleio
+from analogio import AnalogIn 
+import pwmio  
+
+analog_in = AnalogIn(board.A1) #potentionmeter pin
+pin_out = pwmio.PWMOut(board.D8,duty_cycle=65535,frequency=5000)
+
+while True:
+
+  sensor_value = analog_in.value
+  # Map the sensor's range from 0<=sensor_value<=255 to 0<=sensor_value<=1023
+  mapped_value = int(simpleio.map_range(sensor_value, 0, 65535, 0, 255))
+  
+  pin_out.duty_cycle = sensor_value
+  print("mapped sensor value: ", sensor_value)
+  time.sleep(0.1)
+  ```
+### Evidence
+#### Functioning Video
+#### Wiring Digram
