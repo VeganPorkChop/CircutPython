@@ -220,6 +220,7 @@ while True:
   ```
 ### Evidence
 #### Functioning Video
+![Kaz's DC Motor Video](https://github.com/kshinoz98/CircuitPython/raw/d20d813b4dadc8ccec0c083e8bce710b5941454e/Untitled_%20Nov%202,%202022%2012_49%20PM.gif?raw=true)
 #### Wiring Digram
 ![Lucia's DC Motor Wiring](https://github.com/lwhitmo/CircuitPython/raw/master/Images/Screenshot%202022-11-01%20115847.png)
 ### Reflection
