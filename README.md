@@ -195,6 +195,7 @@ while True:
 When I was doing this assignment my second input, the one that toggles the counting, was set as a integer and not a boolean. Set it as a boolean and that will help it toggle. Don't spend your time on debounce, its not worth it.
 ## MotorControl
 ### Description
+This assignment teaches you how to wire a 6V battery pack to the arduino with a circuit without frying the servo. This assignment also requires the student to code something that uses a potentiomenter to control the motors speed
 ### Code
 ```python
 import time
@@ -220,3 +221,6 @@ while True:
 ### Evidence
 #### Functioning Video
 #### Wiring Digram
+![Lucia's DC Motor Wiring](https://github.com/lwhitmo/CircuitPython/raw/master/Images/Screenshot%202022-11-01%20115847.png)
+### Reflection
+This assignment was very easy. Last year in Engineering 2 we did the same assignment in Arduino.cc. The only difference from that one and this one is that this one was in Circuit Python. If I was to do this assignment again, I would remeber to add the libraries. I forgot, that stunk.
