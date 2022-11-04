@@ -16,16 +16,17 @@ btn.pull = Pull.UP
 btn2.direction = Direction.INPUT
 btn2.pull = Pull.UP
 # create a PWMOut object on Pin A2.
-pwm = pwmio.PWMOut(board.D3, duty_cycle=2 ** 15, frequency=50)
+pwm = pwmio.PWMOut(board.D7, duty_cycle=2 ** 15, frequency=50)
 # Create a servo object, my_servo.
 my_servo = servo.Servo(pwm)
 
 while True:
-    time.sleep(.1)
     if btn == True:
+        time.sleep(1)
         for angle in range(0, 180, 90):  # 0 - 180 degrees, 100 degrees at a time.
             my_servo.angle = angle
     elif btn2 == True:
+        time.sleep(1)
         for angle in range(180, 0, -90): # 180 - 0 degrees, 100 degrees at a time.
             my_servo.angle = angle
     else:

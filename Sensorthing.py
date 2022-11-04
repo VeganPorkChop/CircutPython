@@ -8,7 +8,7 @@ import adafruit_hcsr04
 import neopixel                       
 from board import *
 
-sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D3, echo_pin=board.D2)
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D7, echo_pin=board.D2)
 Kaz = neopixel.NeoPixel(board.NEOPIXEL, 1)#connecting the neopixel on the board to the code
 Kaz.brightness = 0.1 #setting the brightness of the light, from 0-1 brightness
 KazOutput = 0
