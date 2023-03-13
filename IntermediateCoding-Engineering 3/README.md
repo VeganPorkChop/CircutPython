@@ -263,6 +263,7 @@ while True:
 ```
 ### Evidence
 ![TempSensorVid](https://user-images.githubusercontent.com/91289762/224817156-a0caf5ff-7277-4878-8c83-0905eb6847b9.gif)
-
+### Reflection
+This assignment was an easy assignment. For furute refrence, I really enjoyed having previous code to easily work off of. Make sure the LCD is either 3f or 27(its in the code comments)
 
 
