@@ -262,8 +262,7 @@ while True:
     
 ```
 ### Evidence
-![TempSensorVid](https://user-images.githubusercontent.com/91289762/224816611-b5cf3ace-44b9-4dbe-a039-a25f0f404f63.mp4)
-
+![TempSensorVid](https://user-images.githubusercontent.com/91289762/224817156-a0caf5ff-7277-4878-8c83-0905eb6847b9.gif)
 
 
 
