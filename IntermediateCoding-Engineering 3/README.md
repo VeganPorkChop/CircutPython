@@ -4,6 +4,7 @@
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
 * [MotorControl](#MotorControl)
+* [Temperature Reading](#Temperature_Reading)
 ## Hello_CircuitPython:
 ### Description
 This assignment started me on Circuit Python and was designed to teach me about changing an on board LED
@@ -225,3 +226,40 @@ while True:
 ![Lucia's DC Motor Wiring](https://github.com/lwhitmo/CircuitPython/raw/master/Images/Screenshot%202022-11-01%20115847.png)
 ### Reflection
 This assignment was very easy. Last year in Engineering 2 we did the same assignment in Arduino.cc. The only difference from that one and this one is that this one was in Circuit Python. If I was to do this assignment again, I would remeber to add the libraries. I forgot, that stunk.
+## Temperature_Reading
+### Description
+This assignments was simple. Wire a LCD and a Temperature sensor. Get the LCD to print in celcius and farenheit.
+### Code
+```python
+import board
+import time
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+from digitalio import DigitalInOut, Direction, Pull
+import board
+import analogio
+
+# get and i2c object
+i2c = board.I2C()
+tmp36 = analogio.AnalogIn(board.A0)
+# some LCDs are 0x3f... some are 0x27.
+lcd = LCD(I2CPCF8574Interface(i2c, 0x27), num_rows=2, num_cols=16)
+def tmp36_temperature_C(analogin):
+    millivolts = analogin.value * (analogin.reference_voltage * 1000 / 65535)
+    return (millivolts - 500) / 10
+
+while True:
+    # Read the temperature in Celsius.
+    temp_C = tmp36_temperature_C(tmp36)
+    # Convert to Fahrenheit.
+    temp_F = (temp_C * 9/5) + 32
+    # Print out the value and delay a second before looping again.
+    lcd.set_cursor_pos(0, 0)
+    lcd.print("Temp: {}C".format(temp_C))
+    lcd.set_cursor_pos(1, 0)
+    lcd.print("Temp: {}F".format(temp_F))
+    time.sleep(.5)
+    
+```
+### Evidence
+![TempSensorVid](https://user-images.githubusercontent.com/91289762/224815510-faa5a1d2-2e55-4203-bf1a-be32f97bdfea.mp4)
