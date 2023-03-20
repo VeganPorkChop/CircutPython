@@ -416,3 +416,7 @@ while True:
 ### Evidence
 #### Functioning Video
 ![Kaz's Video of Encoder](https://user-images.githubusercontent.com/91289762/226416168-7e79d045-e927-4b03-b5cd-4ff7c71102bf.mp4)
+#### Wiring Diagram
+![Screenshot 2023-03-20 152931](https://user-images.githubusercontent.com/91289762/226445885-b92c2b66-7653-48d2-97e5-5e58a1149cec.png)
+### Reflection
+This assignment was difficult. I wanted to try and attempt a switch case, but in circuit python. Overall, the problem that slowed me down the mast was when the LCD got overloaded on volage on startup and didn't function. It prevented the Metro from connecting to my computer, the fix and code to solve it is on the canvas assignment.
