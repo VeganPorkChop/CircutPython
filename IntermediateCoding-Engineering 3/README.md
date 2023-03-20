@@ -413,4 +413,6 @@ while True:
 
     last_position = position
 ```
-
+### Evidence
+#### Functioning Video
+![Kaz's Video of Encoder](https://user-images.githubusercontent.com/91289762/226416168-7e79d045-e927-4b03-b5cd-4ff7c71102bf.mp4)
