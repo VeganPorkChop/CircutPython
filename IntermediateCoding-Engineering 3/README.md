@@ -415,7 +415,7 @@ while True:
 ```
 ### Evidence
 #### Functioning Video
-![Kaz's Video of Encoder](https://user-images.githubusercontent.com/91289762/226416168-7e79d045-e927-4b03-b5cd-4ff7c71102bf.mp4)
+![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/91289762/226446966-8a585aef-7c21-480a-8ca3-219ae95f4cef.gif)
 #### Wiring Diagram
 ![Screenshot 2023-03-20 152931](https://user-images.githubusercontent.com/91289762/226445885-b92c2b66-7653-48d2-97e5-5e58a1149cec.png)
 ### Reflection
