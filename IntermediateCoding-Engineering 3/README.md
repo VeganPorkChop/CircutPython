@@ -419,4 +419,4 @@ while True:
 #### Wiring Diagram
 ![Screenshot 2023-03-20 152931](https://user-images.githubusercontent.com/91289762/226445885-b92c2b66-7653-48d2-97e5-5e58a1149cec.png)
 ### Reflection
-This assignment was difficult. I wanted to try and attempt a switch case, but in circuit python. Overall, the problem that slowed me down the mast was when the LCD got overloaded on volage on startup and didn't function. It prevented the Metro from connecting to my computer, the fix and code to solve it is on the canvas assignment.
+This assignment was difficult. I wanted to try and attempt a switch case, but in circuit python. Overall, the problem that slowed me down the mast was when the LCD got overloaded on volage on startup and didn't function. It prevented the Metro from connecting to my computer, the fix and code to solve it is on the [canvas assignment.](https://github.com/Helmstk1/CircuitPython/blob/master/README.md#how-to-fix-the-lcd-power-issue-with-metro-m4-boards)
