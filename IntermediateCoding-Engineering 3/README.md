@@ -449,7 +449,7 @@ while True:
 ```
 ### Evidence
 #### Functioning Video
-![River'sVideo](https://user-images.githubusercontent.com/91289762/226713736-399d0f22-aff7-4dd4-8ebb-a26b9d3674bc.gif = 250x250)
+![River'sVideo](https://user-images.githubusercontent.com/91289762/226713736-399d0f22-aff7-4dd4-8ebb-a26b9d3674bc.gif | width=100)
 #### Wiring Diagram
 ![River'sWiring](https://rivques.github.io/docs/photointcircuit.png)
 ### Reflection
