@@ -423,3 +423,32 @@ This assignment was difficult. I wanted to try and attempt a switch case, but in
 ## CircuitPy PhotoInterruptors
 ### Description
 wire up your photointerrupter and have it keep track of how many times it has been interrupted. Additionaly, your program outputs the count using a full sentence. The program must output the sentence every 4 seconds, and don't use sleep(), use [time.monotonic()](https://learn.adafruit.com/arduino-to-circuitpython/time)
+### Code
+```py
+import time
+import digitalio
+import board
+
+photoI = digitalio.DigitalInOut(board.D7)
+photoI.direction = digitalio.Direction.INPUT
+photoI.pull = digitalio.Pull.UP
+
+last_photoI = True
+last_update = -4
+
+photoICrosses = 0
+
+while True:
+    if time.monotonic()-last_update > 4:
+        print(f"The number of crosses is {photoICrosses}")
+        last_update = time.monotonic()
+    
+    if last_photoI != photoI.value and not photoI.value:
+        photoICrosses += 1
+    last_photoI = photoI.value
+```
+### Evidence
+#### Functioning Video
+![River'sVideo](https://rivques.github.io/docs/Photointerrupter.gif)
+#### Wiring Diagram
+![River'sWiring](https://rivques.github.io/docs/photointcircuit.png)
