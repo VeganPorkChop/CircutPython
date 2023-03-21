@@ -5,6 +5,7 @@
 * [CircuitPython_LCD](#CircuitPython_LCD)
 * [MotorControl](#MotorControl)
 * [Temperature Reading](#Temperature_Reading)
+* [CircuitPy PhotoInterruptors](#CircuitPy_PhotoInterruptors)
 ## Hello_CircuitPython:
 ### Description
 This assignment started me on Circuit Python and was designed to teach me about changing an on board LED
