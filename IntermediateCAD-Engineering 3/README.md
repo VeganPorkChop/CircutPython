@@ -45,6 +45,10 @@ MultiPart Step4
 ### Reflection
 On step four I did not extrude the bottom or top cap correctly, this is because there are two faces that you need to extrude, the outer and inner portions of the circle. I only did the outer. Make sure you pay attention to the material, because the material change for the cylinder messed up my weight.
 ## Onshape Assemblies
+### Description
+This was a course that helped the student learn about how to use all of the features in the onshape assembly page.
+### Evidence
 * [Certificate](https://ti-user-certificates.s3.amazonaws.com/6e557ed6-d03d-4c48-9492-4d18d145d7a1/5ecc5164-5b8d-41ab-942f-329bd00dc8ea-graham-gilbert-schroeer-a179b1cb-ca27-4117-8214-6156fe6b29b4-certificate.pdf)
-
+### Reflection
+Throughout this course I learned how to use all of the different types of assembly mates and features. Features that were used in the Delta Arm project like the planar mate that makes one face parrallel to another while also allowing to move anywhere else freely. This assignment had a bug in it, you could bypass the required watch videos and assemblies by submitting empty assemblies and also by waiting 10 seconds on the video and dragging the video location bar to the end of the video. I figured out this bug on the penultimate section and told the engineering teacher.
 
