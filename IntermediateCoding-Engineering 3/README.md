@@ -454,4 +454,4 @@ while True:
 #### Wiring Diagram
 ![River'sWiring](https://rivques.github.io/docs/photointcircuit.png)
 ### Reflection
-This assignment took no time sence I have already done this assignment, but in C++.
+This assignment took no time sence I have already done this assignment, but in C++. The Photointerruptor need to use attachInterrupt() in C++ and DigitalInOut() in circuit python. Thats because if it detects a motion during a delay() in C++ or a time.sleep() in circuit python it wont log it how you want it to so on both the arduino and the metro you need to use one of the two possible pins for this, 2 or 3.
